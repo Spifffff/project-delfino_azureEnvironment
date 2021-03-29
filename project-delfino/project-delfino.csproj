@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>project_delfino</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CognitiveServices.Speech" Version="1.16.0" />
+    <PackageReference Include="NAudio" Version="2.0.0" />
+    <PackageReference Include="NAudio.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wav\" />
+  </ItemGroup>
+
+</Project>
